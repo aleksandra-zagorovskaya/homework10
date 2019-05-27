@@ -8,17 +8,25 @@
 <body>
     <div class="container">
         <form>
-            <img src="desc.jpg" alt="pic"></img>
-            <div>Описание</div>
-            <div class="align">
-                <input type="text" name="name_koktel" placeholder="Название коктейля">
-                <input type="text" name="alternativ" placeholder="Альтернативное название через запятую">
-                <textarea name="description" placeholder="Краткое описание"></textarea>
-                <textarea name="instruction" placeholder="Инструкция для приготовления"></textarea>
-                <input type="submit" name="download" value="Загрузить">
+            <div class="discription-block">
+                <img src="desc.jpg" alt="pic"></img>
+                <div >Описание</div>
             </div>
+            <div class="main-block">
+                <div class="left-block">
+                    <img src="bokal.jpg" alt="pic"></img>
+                    <input type="submit" name="download" value="Загрузить">
+                </div>
+                <div class="right-block">
+                    <input type="text" name="name_koktel" placeholder="Название коктейля" class="subform">
+                    <input type="text" name="alternativ" placeholder="Альтернативное название через запятую" class="subform">
+                    <textarea name="description" placeholder="Краткое описание" class="subform"></textarea>
+                 </div>
+            </div>
+                <div>
+                    <textarea name="instruction" placeholder="Инструкция для приготовления" class="subform" class="subform"></textarea>
+                </div>
         </form>
-
     </div>
 </body>
 </html>

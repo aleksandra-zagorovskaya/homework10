@@ -1,20 +1,51 @@
- .container {
-     width: 400px;
-     height: 400px;
-     background-color: lightgrey;
+body {
+    font-family:  Arial, sans-serif;
+}
+.container {
+     width: 500px;
+     height: 450px;
+     background-color: Gainsboro;
      margin: 150px auto;
+     padding-left: 10px;
+ }
+ .discription-block {
+     display: flex;
+     padding-top: 20px;
+     padding-bottom: 5px;
+ }
+ .main-block {
+     display: flex;
+ }
+ .left-block img {
+     border: 5px solid white;
+     border-radius: 5px;
+ }
+ .right-block {
+     padding: 0 10px;
  }
  input[type="text"] {
-     width: 300px;
-     height: 20px;
-     border-radius: 6px;
+     width: 350px;
+     height: 10px;
      margin-bottom: 10px;
-     padding-left: 10px;
-     box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5)
  }
  input[type="submit"] {
      color: white;
-     background-color: cornflowerblue;
-     border-radius: 6px;
+     background-color: #69a1dc;
      padding: 5px 20px;
+     border-radius: 5px;
  }
+ textarea[name="description"]{
+     width: 350px;
+     height: 96px;
+ }
+ textarea[name="instruction"] {
+     width: 465px;
+     height: 100px;
+ }
+.subform {
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+    border-radius: 6px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    border: 1px solid grey;
+}
