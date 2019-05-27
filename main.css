@@ -50,7 +50,9 @@ body {
     padding: 10px;
     font-family: "Arial", sans-serif;
     border: 1px solid grey;
+    outline:none;
 }
-/*input["placeholder"]{
-    color: red;
-}*/
+::-webkit-input-placeholder {color:lightgray;}/*Safari/Chrome*/
+::-moz-placeholder          {color:lightgray;}/* Firefox 19+ */
+:-moz-placeholder           {color:lightgray;}/* Firefox 18- */
+:-ms-input-placeholder      {color:lightgray;}
